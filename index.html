@@ -17,6 +17,15 @@
       width: 50%;
       height: 50%;  
     }
+    .blink {
+      animation: blinker 900ms linear infinite;
+      font-weight: bold;
+    }
+    @keyframes blinker {
+        80% {
+            color: black;
+        }
+    }
   </style>
 </head>  
 <body>
@@ -31,7 +40,7 @@
                                                                                    
                                                                                    
   </pre>
-  <p><b>Wasting registrar fees since 2002.</b></p>
+  <p><b>Wasting registrar fees since 2002.</b><span class="blink">_</bspan></p>
  </div></main>
 </body>
 </html>
